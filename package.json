@@ -1,6 +1,6 @@
 {
 	"name": "@types/tsd-xmath",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Types for thejustinwalsh's xmath, a Defold Math eXtention Library that avoids allocations",
 	"license": "MIT",
 	"scripts": {
@@ -10,10 +10,12 @@
 	"types": "./@types/xmath.d.ts",
 	"devDependencies": {
 		"@ts-defold/types": "git+https://git@github.com/thinknathan/ts-defold-types.git#^1.3.2",
+		"@typescript-to-lua/language-extensions": "^1.0.0",
 		"prettier": "~2.8.8",
-		"typescript": "~5.0.4"
+		"typescript": "~5.1.0"
 	},
 	"peerDependencies": {
-		"@ts-defold/types": "^1.0.1"
+		"@ts-defold/types": "^1.0.1",
+		"@typescript-to-lua/language-extensions": "^1.0.0"
 	}
 }
