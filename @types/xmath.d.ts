@@ -21,12 +21,12 @@ declare namespace xmath {
 	export function add(
 		vChangeInPlace: vmath.vector3,
 		v1: vmath.vector3,
-		v2: vmath.vector3
+		v2: vmath.vector3,
 	): void;
 	export function add(
 		vChangeInPlace: vmath.vector4,
 		v1: vmath.vector4,
-		v2: vmath.vector4
+		v2: vmath.vector4,
 	): void;
 
 	/**
@@ -38,12 +38,12 @@ declare namespace xmath {
 	export function sub(
 		vChangeInPlace: vmath.vector3,
 		v1: vmath.vector3,
-		v2: vmath.vector3
+		v2: vmath.vector3,
 	): void;
 	export function sub(
 		vChangeInPlace: vmath.vector4,
 		v1: vmath.vector4,
-		v2: vmath.vector4
+		v2: vmath.vector4,
 	): void;
 
 	/**
@@ -55,12 +55,12 @@ declare namespace xmath {
 	export function mul(
 		vChangeInPlace: vmath.vector3,
 		v: vmath.vector3,
-		n: number
+		n: number,
 	): void;
 	export function mul(
 		vChangeInPlace: vmath.vector4,
 		v: vmath.vector4,
-		n: number
+		n: number,
 	): void;
 
 	/**
@@ -72,12 +72,12 @@ declare namespace xmath {
 	export function div(
 		vChangeInPlace: vmath.vector3,
 		v: vmath.vector3,
-		n: number
+		n: number,
 	): void;
 	export function div(
 		vChangeInPlace: vmath.vector4,
 		v: vmath.vector4,
-		n: number
+		n: number,
 	): void;
 
 	//
@@ -98,7 +98,7 @@ declare namespace xmath {
 	export function cross(
 		vChangeInPlace: vmath.vector3,
 		v1: vmath.vector3,
-		v2: vmath.vector3
+		v2: vmath.vector3,
 	): void;
 
 	/**
@@ -112,12 +112,12 @@ declare namespace xmath {
 	export function mul_per_elem(
 		vChangeInPlace: vmath.vector3,
 		v1: vmath.vector3,
-		v2: vmath.vector3
+		v2: vmath.vector3,
 	): void;
 	export function mul_per_elem(
 		vChangeInPlace: vmath.vector4,
 		v1: vmath.vector4,
-		v2: vmath.vector4
+		v2: vmath.vector4,
 	): void;
 
 	/**
@@ -130,11 +130,11 @@ declare namespace xmath {
 	 */
 	export function normalize(
 		vChangeInPlace: vmath.vector3,
-		v1: vmath.vector3
+		v1: vmath.vector3,
 	): void;
 	export function normalize(
 		vChangeInPlace: vmath.vector4,
-		v1: vmath.vector4
+		v1: vmath.vector4,
 	): void;
 
 	/**
@@ -148,7 +148,7 @@ declare namespace xmath {
 	export function rotate(
 		vChangeInPlace: vmath.vector3,
 		q: vmath.quaternion,
-		v1: vmath.vector3
+		v1: vmath.vector3,
 	): void;
 
 	/**
@@ -172,7 +172,7 @@ declare namespace xmath {
 	 */
 	export function conj(
 		qChangeInPlace: vmath.quaternion,
-		q1: vmath.quaternion
+		q1: vmath.quaternion,
 	): void;
 
 	/**
@@ -185,7 +185,7 @@ declare namespace xmath {
 	export function quat_axis_angle(
 		qChangeInPlace: vmath.quaternion,
 		v: vmath.vector3,
-		angle: number
+		angle: number,
 	): void;
 
 	/**
@@ -201,7 +201,7 @@ declare namespace xmath {
 		qChangeInPlace: vmath.quaternion,
 		x: vmath.vector3,
 		y: vmath.vector3,
-		z: vmath.vector3
+		z: vmath.vector3,
 	): void;
 
 	/**
@@ -217,7 +217,7 @@ declare namespace xmath {
 	export function quat_from_to(
 		qChangeInPlace: vmath.quaternion,
 		v1: vmath.vector3,
-		v2: vmath.vector3
+		v2: vmath.vector3,
 	): void;
 
 	/**
@@ -228,7 +228,7 @@ declare namespace xmath {
 	 */
 	export function quat_rotation_x(
 		qChangeInPlace: vmath.quaternion,
-		angle: number
+		angle: number,
 	): void;
 
 	/**
@@ -239,7 +239,7 @@ declare namespace xmath {
 	 */
 	export function quat_rotation_y(
 		qChangeInPlace: vmath.quaternion,
-		angle: number
+		angle: number,
 	): void;
 
 	/**
@@ -250,7 +250,7 @@ declare namespace xmath {
 	 */
 	export function quat_rotation_z(
 		qChangeInPlace: vmath.quaternion,
-		angle: number
+		angle: number,
 	): void;
 
 	/**
@@ -279,13 +279,13 @@ declare namespace xmath {
 		vChangeInPlace: vmath.vector3,
 		t: number,
 		v1: vmath.vector3,
-		v2: vmath.vector3
+		v2: vmath.vector3,
 	): void;
 	export function lerp(
 		vChangeInPlace: vmath.vector4,
 		t: number,
 		v1: vmath.vector4,
-		v2: vmath.vector4
+		v2: vmath.vector4,
 	): void;
 
 	/**
@@ -303,7 +303,7 @@ declare namespace xmath {
 		qChangeInPlace: vmath.quaternion,
 		t: number,
 		q1: vmath.quaternion,
-		q2: vmath.quaternion
+		q2: vmath.quaternion,
 	): void;
 
 	/**
@@ -319,7 +319,7 @@ declare namespace xmath {
 		nChangeInPlace: number,
 		t: number,
 		n1: number,
-		n2: number
+		n2: number,
 	): void;
 
 	/**
@@ -340,13 +340,13 @@ declare namespace xmath {
 		vChangeInPlace: vmath.vector3,
 		t: number,
 		v1: vmath.vector3,
-		v2: vmath.vector3
+		v2: vmath.vector3,
 	): void;
 	export function slerp(
 		vChangeInPlace: vmath.vector4,
 		t: number,
 		v1: vmath.vector4,
-		v2: vmath.vector4
+		v2: vmath.vector4,
 	): void;
 
 	/**
@@ -366,7 +366,7 @@ declare namespace xmath {
 		qChangeInPlace: vmath.quaternion,
 		t: number,
 		q1: vmath.quaternion,
-		q2: vmath.quaternion
+		q2: vmath.quaternion,
 	): void;
 
 	//
@@ -389,7 +389,7 @@ declare namespace xmath {
 	 */
 	export function matrix(
 		mChangeInPlace: vmath.matrix4,
-		m1: vmath.matrix4
+		m1: vmath.matrix4,
 	): void;
 
 	/**
@@ -401,7 +401,7 @@ declare namespace xmath {
 	export function matrix_axis_angle(
 		mChangeInPlace: vmath.matrix4,
 		v: vmath.vector3,
-		angle: number
+		angle: number,
 	): void;
 
 	/**
@@ -412,7 +412,7 @@ declare namespace xmath {
 	 */
 	export function matrix_from_quat(
 		mChangeInPlace: vmath.matrix4,
-		q: vmath.quaternion
+		q: vmath.quaternion,
 	): void;
 
 	/**
@@ -435,7 +435,7 @@ declare namespace xmath {
 		bottom: number,
 		top: number,
 		near: number,
-		far: number
+		far: number,
 	): void;
 
 	/**
@@ -449,7 +449,7 @@ declare namespace xmath {
 	 */
 	export function matrix_inv(
 		mChangeInPlace: vmath.matrix4,
-		m1: vmath.matrix4
+		m1: vmath.matrix4,
 	): void;
 
 	/**
@@ -465,7 +465,7 @@ declare namespace xmath {
 		mChangeInPlace: vmath.matrix4,
 		eye: vmath.vector3,
 		look_at: vmath.vector3,
-		up: vmath.vector3
+		up: vmath.vector3,
 	): void;
 
 	/**
@@ -486,7 +486,7 @@ declare namespace xmath {
 		bottom: number,
 		top: number,
 		near: number,
-		far: number
+		far: number,
 	): void;
 
 	/**
@@ -500,7 +500,7 @@ declare namespace xmath {
 	 */
 	export function matrix_ortho_inv(
 		mChangeInPlace: vmath.matrix4,
-		m1: vmath.matrix4
+		m1: vmath.matrix4,
 	): void;
 
 	/**
@@ -517,7 +517,7 @@ declare namespace xmath {
 		fov: number,
 		aspect: number,
 		near: number,
-		far: number
+		far: number,
 	): void;
 
 	/**
@@ -528,7 +528,7 @@ declare namespace xmath {
 	 */
 	export function matrix_rotation_x(
 		mChangeInPlace: vmath.matrix4,
-		angle: number
+		angle: number,
 	): void;
 
 	/**
@@ -539,7 +539,7 @@ declare namespace xmath {
 	 */
 	export function matrix_rotation_y(
 		mChangeInPlace: vmath.matrix4,
-		angle: number
+		angle: number,
 	): void;
 
 	/**
@@ -550,7 +550,7 @@ declare namespace xmath {
 	 */
 	export function matrix_rotation_z(
 		mChangeInPlace: vmath.matrix4,
-		angle: number
+		angle: number,
 	): void;
 
 	/**
@@ -561,6 +561,6 @@ declare namespace xmath {
 	 */
 	export function matrix_translation(
 		mChangeInPlace: vmath.matrix4,
-		position: vmath.vector3 | vmath.vector4
+		position: vmath.vector3 | vmath.vector4,
 	): void;
 }
