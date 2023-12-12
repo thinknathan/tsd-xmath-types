@@ -1,5 +1,7 @@
 # @types/tsd-xmath
 
+<a href="https://discord.gg/eukcq5m"><img alt="Chat with us!" src="https://img.shields.io/discord/766898804896038942.svg?colorB=7581dc&logo=discord&logoColor=white"></a>
+
 TypeScript types for thejustinwalsh's [defold-xmath](https://github.com/thejustinwalsh/defold-xmath), a Defold Math eXtention Library that avoids allocations.
 
 For use with [TS-Defold](https://github.com/ts-defold) and [TypeScriptToLua](https://github.com/TypeScriptToLua).
@@ -41,6 +43,10 @@ npm install git+https://git@github.com/thinknathan/tsd-xmath-types.git#^1.0.0 --
 	}
 }
 ```
+
+<p align="center" class="h4">
+  TypeScript :heart: Defold
+</p>
 
 ## License
 

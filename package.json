@@ -3,6 +3,9 @@
 	"version": "1.0.2",
 	"description": "Types for thejustinwalsh's xmath, a Defold Math eXtention Library that avoids allocations",
 	"license": "MIT",
+	"files": [
+		"**/*.d.ts"
+	],
 	"scripts": {
 		"check": "tsc --noEmit",
 		"prettier": "prettier \"./**\" --write"
