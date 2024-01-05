@@ -1,3 +1,5 @@
+<img src="_docs/xmath-types.png" alt="xMath Types">
+
 # @types/tsd-xmath
 
 <a href="https://discord.gg/eukcq5m"><img alt="Chat with us!" src="https://img.shields.io/discord/766898804896038942.svg?colorB=7581dc&logo=discord&logoColor=white"></a>
